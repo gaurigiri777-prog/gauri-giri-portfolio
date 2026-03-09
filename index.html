@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfolio of Gauri Giri - Data Analyst and Aspiring Data Scientist. Showcasing skills in Python, SQL, and Data Visualization.">
+    <title>Gauri Giri | Data Analyst & Aspiring Data Scientist</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo gradient-text">GAURI GIRI</a>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <nav class="nav-links">
+                <ul>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#contact" class="btn-contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-image-wrapper">
+                    <div class="profile-frame">
+                        <!-- Using actual filename from list_dir -->
+                        <img src="images/profile-picture.png" alt="Gauri Giri" class="profile-img">
+                    </div>
+                </div>
+                <div class="hero-content">
+                    <h1 class="gradient-text type-effect">Hello, I'm Gauri Giri</h1>
+                    <h2 class="subtitle">Data Analyst | Aspiring Data Scientist | Business Analytics</h2>
+                    <div class="location-tag">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Ranchi, Jharkhand, India</span>
+                    </div>
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <!-- Assuming a CV file might exist or using a placeholder link -->
+                        <a href="resume/Gauri_Giri_Data_Analyst_Resume.pdf" class="btn btn-primary" target="_blank"
+                            rel="noopener">View Resume</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Floating Background Elements -->
+            <div class="floating-icon icon-1"><i class="fab fa-python"></i></div>
+            <div class="floating-icon icon-2"><i class="fas fa-database"></i></div>
+            <div class="floating-icon icon-3"><i class="fas fa-chart-bar"></i></div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container about-container">
+                <div class="about-text">
+                    <h2 class="section-title">About Me</h2>
+                    <p>
+                        I am a passionate Data Analyst and aspiring Data Scientist with a strong foundation in Python,
+                        SQL, and Data Visualization.
+                        With over 2 years of experience and a 5-star rating on HackerRank, I love turning raw data into
+                        actionable insights.
+                        My journey involves continuous learning and applying analytical skills to solve real-world
+                        business problems.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <i class="fab fa-python stat-icon"></i>
+                        <h3>5★</h3>
+                        <p>HackerRank Python</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-database stat-icon"></i>
+                        <h3>5★</h3>
+                        <p>HackerRank SQL</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-briefcase stat-icon"></i>
+                        <h3>2+</h3>
+                        <p>Years Experience</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Skills Section -->
+        <section id="skills" class="section skills-section contrast-section">
+            <div class="container">
+                <div class="section-header center-text">
+                    <h2 class="section-title highlight-title">Technical Skills</h2>
+                    <p class="section-subtitle high-contrast-subtitle">
+                        Tools, technologies, and analytics expertise
+                    </p>
+                </div>
+
+                <div class="skills-grid contrast-grid">
+
+                    <!-- Programming & Data Analysis -->
+                    <div class="skills-card solid-card">
+                        <h3 class="skills-category category-accent-blue">
+                            Programming & Data Analysis
+                        </h3>
+                        <div class="skill-tags solid-tags">
+                            <span class="skill-pill">Python</span>
+                            <span class="skill-pill">Pandas</span>
+                            <span class="skill-pill">NumPy</span>
+                            <span class="skill-pill">Matplotlib</span>
+                            <span class="skill-pill">Seaborn</span>
+                            <span class="skill-pill">Data Cleaning</span>
+                            <span class="skill-pill">Data Wrangling</span>
+                            <span class="skill-pill">EDA</span>
+                            <span class="skill-pill">Feature Engineering (Basic)</span>
+                            <span class="skill-pill">Statistical Analysis</span>
+                        </div>
+                    </div>
+
+                    <!-- Databases & Querying -->
+                    <div class="skills-card solid-card">
+                        <h3 class="skills-category category-accent-purple">
+                            Databases & Querying
+                        </h3>
+                        <div class="skill-tags solid-tags">
+                            <span class="skill-pill">SQL</span>
+                            <span class="skill-pill">Complex SELECTs</span>
+                            <span class="skill-pill">JOINs</span>
+                            <span class="skill-pill">GROUP BY</span>
+                            <span class="skill-pill">HAVING</span>
+                            <span class="skill-pill">Subqueries</span>
+                            <span class="skill-pill">ROW_NUMBER()</span>
+                            <span class="skill-pill">RANK()</span>
+                        </div>
+                    </div>
+
+                    <!-- Business Intelligence -->
+                    <div class="skills-card solid-card">
+                        <h3 class="skills-category category-accent-green">
+                            Business Intelligence & Visualization
+                        </h3>
+                        <div class="skill-tags solid-tags">
+                            <span class="skill-pill">Power BI</span>
+                            <span class="skill-pill">DAX (Basics)</span>
+                            <span class="skill-pill">Data Modeling</span>
+                            <span class="skill-pill">KPI Dashboards</span>
+                            <span class="skill-pill">Tableau</span>
+                            <span class="skill-pill">Calculated Fields</span>
+                            <span class="skill-pill">Interactive Dashboards</span>
+                            <span class="skill-pill">Microsoft Excel</span>
+                            <span class="skill-pill">Power Query</span>
+                            <span class="skill-pill">Pivot Tables</span>
+                            <span class="skill-pill">XLOOKUP</span>
+                            <span class="skill-pill">INDEX-MATCH</span>
+                        </div>
+                    </div>
+
+                    <!-- Tools & Workflow -->
+                    <div class="skills-card solid-card">
+                        <h3 class="skills-category category-accent-pink">
+                            Tools & Workflow
+                        </h3>
+                        <div class="skill-tags solid-tags">
+                            <span class="skill-pill">Git</span>
+                            <span class="skill-pill">GitHub</span>
+                            <span class="skill-pill">Jupyter Notebook</span>
+                            <span class="skill-pill">Medium Blogging</span>
+                            <span class="skill-pill">Technical Documentation</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience-section">
+            <div class="container">
+                <div class="section-header center-text">
+                    <h2 class="section-title">Professional Experience</h2>
+                    <p class="section-subtitle">Hands-on analytics exposure across operations, healthcare, and business
+                        domains</p>
+                </div>
+
+                <div class="timeline">
+
+                    <!-- Jaishiv Construction -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card experience-card">
+                            <h3 class="role-title">Digital Operations & Data Support Executive</h3>
+                            <p class="company">Jaishiv Construction Private Limited</p>
+                            <p class="duration">Aug 2022 – Apr 2025</p>
+
+                            <ul class="experience-points responsibilities">
+                                <li><i class="fas fa-check-circle"></i> Managed and processed structured and
+                                    semi-structured datasets related to e-Tendering, e-Auction, and e-Invoicing systems.
+                                </li>
+                                <li><i class="fas fa-check-circle"></i> Performed data validation, accuracy checks, and
+                                    compliance verification to ensure error-free submissions.</li>
+                                <li><i class="fas fa-check-circle"></i> Designed and maintained Excel-based tracking
+                                    reports and dashboards to monitor tender timelines, bid status, and outcomes.</li>
+                                <li><i class="fas fa-check-circle"></i> Analyzed operational data to support decision
+                                    timelines and reporting requirements.</li>
+                                <li><i class="fas fa-check-circle"></i> Organized and maintained digital data
+                                    repositories, improving document retrieval efficiency and audit readiness.</li>
+                                <li><i class="fas fa-check-circle"></i> Collaborated with cross-functional teams using
+                                    online enterprise portals and professional communication tools.</li>
+                            </ul>
+
+                            <div class="analytics-tags">
+                                <span>Operations Analytics</span>
+                                <span>Reporting Automation</span>
+                                <span>Data Quality Management</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Digital Dot Tech -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card experience-card">
+                            <h3 class="role-title">IT Support Executive – Hospital Operations (Contract)</h3>
+                            <p class="company">Digital Dot Tech, Kolkata</p>
+                            <p class="duration">Aug 2017 – Mar 2020</p>
+
+                            <ul class="experience-points responsibilities">
+                                <li><i class="fas fa-check-circle"></i> Supported Hospital Management Systems (HMS)
+                                    handling patient, billing, and operational datasets.</li>
+                                <li><i class="fas fa-check-circle"></i> Maintained and validated healthcare data to
+                                    ensure consistency and reliability.</li>
+                                <li><i class="fas fa-check-circle"></i> Created Excel reports and basic dashboards for
+                                    hospital management decision-making.</li>
+                                <li><i class="fas fa-check-circle"></i> Assisted in troubleshooting data discrepancies
+                                    and system issues across departments.</li>
+                            </ul>
+
+                            <div class="analytics-tags">
+                                <span>Healthcare Data</span>
+                                <span>Reporting</span>
+                                <span>Data Validation</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Internship Section -->
+                <div class="section-header secondary center-text" style="margin-top: 60px;">
+                    <h2 class="section-title">Internship Experience</h2>
+                </div>
+
+                <div class="timeline">
+
+                    <!-- Samsung Internship -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card experience-card">
+                            <h3 class="role-title">Market Research & Analysis Intern</h3>
+                            <p class="company">Samsung Electronics – Ranchi</p>
+                            <p class="duration">Jan 2022 – Mar 2022</p>
+
+                            <ul class="experience-points responsibilities">
+                                <li><i class="fas fa-check-circle"></i> Conducted market research and collected
+                                    structured datasets from multiple sources.</li>
+                                <li><i class="fas fa-check-circle"></i> Performed basic data analysis to identify
+                                    consumer trends and product preferences.</li>
+                                <li><i class="fas fa-check-circle"></i> Prepared analytical summaries and presentations
+                                    for internal stakeholders.</li>
+                            </ul>
+
+                            <div class="analytics-tags">
+                                <span>Market Research</span>
+                                <span>Business Analysis</span>
+                                <span>Data Interpretation</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Internshala Internship -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card experience-card">
+                            <h3 class="role-title">Data Analytics Intern</h3>
+                            <p class="company">Internshala (Online)</p>
+                            <p class="duration">Apr 2022 – May 2022</p>
+
+                            <ul class="experience-points responsibilities">
+                                <li><i class="fas fa-check-circle"></i> Completed structured analytics-focused training
+                                    modules.</li>
+                                <li><i class="fas fa-check-circle"></i> Applied Excel, SQL, and data interpretation
+                                    techniques to real-world case studies.</li>
+                                <li><i class="fas fa-check-circle"></i> Achieved <strong>90th percentile</strong> in
+                                    final assessment.</li>
+                            </ul>
+
+                            <div class="analytics-tags">
+                                <span>Excel</span>
+                                <span>SQL</span>
+                                <span>Data Analytics</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <h2 class="section-title center-text">Featured Projects</h2>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="images/project-1-cover-image.jpg" alt="KBC Game">
+                            <div class="overlay">
+                                <a href="https://medium.com/@gaurigiri777/build-kaun-banega-crorepati-in-python-step-by-step-guide-beginner-friendly-eeac97cdcb04"
+                                    target="_blank" class="btn btn-sm">View Details</a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>KBC Game in Python</h3>
+                            <div class="tech-stack">
+                                <span class="pill">Python</span>
+                                <span class="pill">Logic</span>
+                            </div>
+                            <p>A step-by-step guide to building the famous KBC game using Python logic.</p>
+                            <a href="https://medium.com/@gaurigiri777/build-kaun-banega-crorepati-in-python-step-by-step-guide-beginner-friendly-eeac97cdcb04"
+                                target="_blank" class="read-link">Read on Medium <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="images/project-2-cover-image.jpg" alt="Employee Attrition">
+                            <div class="overlay">
+                                <a href="https://medium.com/@gaurigiri777/visualizing-employee-attrition-performance-what-hr-data-reveals-about-retention-performance-fab22e9c736e"
+                                    target="_blank" class="btn btn-sm">View Details</a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Employee Attrition Analysis</h3>
+                            <div class="tech-stack">
+                                <span class="pill">Data Viz</span>
+                                <span class="pill">Analytics</span>
+                            </div>
+                            <p>Visualizing employee attrition performance and HR data insights.</p>
+                            <a href="https://medium.com/@gaurigiri777/visualizing-employee-attrition-performance-what-hr-data-reveals-about-retention-performance-fab22e9c736e"
+                                target="_blank" class="read-link">Read on Medium <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="images/project-3-cover-picture.png" alt="Seaborn Guide">
+                            <div class="overlay">
+                                <a href="https://medium.com/@gaurigiri777/mastering-seaborn-from-theory-to-beautiful-visualizations-a-complete-hands-on-guide-c23f54172992"
+                                    target="_blank" class="btn btn-sm">View Details</a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Mastering Seaborn</h3>
+                            <div class="tech-stack">
+                                <span class="pill">Python</span>
+                                <span class="pill">Seaborn</span>
+                            </div>
+                            <p>Complete hands-on guide from theory to beautiful visualizations.</p>
+                            <a href="https://medium.com/@gaurigiri777/mastering-seaborn-from-theory-to-beautiful-visualizations-a-complete-hands-on-guide-c23f54172992"
+                                target="_blank" class="read-link">Read on Medium <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <!-- Project 4 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="images/project-4-cover-image.jpg" alt="Bank Account Simulator">
+                            <div class="overlay">
+                                <a href="https://medium.com/@gaurigiri777/bank-account-simulator-in-python-beginner-project-1ee60a1d0345"
+                                    target="_blank" class="btn btn-sm">View Details</a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Bank Account Simulator</h3>
+                            <div class="tech-stack">
+                                <span class="pill">Python</span>
+                                <span class="pill">OOP</span>
+                            </div>
+                            <p>A beginner-friendly Bank Account Simulator project in Python.</p>
+                            <a href="https://medium.com/@gaurigiri777/bank-account-simulator-in-python-beginner-project-1ee60a1d0345"
+                                target="_blank" class="read-link">Read on Medium <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <!-- Project 5 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="images/project-5-cover-image.jpg" alt="SQL Sales System">
+                            <div class="overlay">
+                                <a href="https://medium.com/@gaurigiri777/beginner-sql-project-sales-customer-management-system-162c5a0e741a"
+                                    target="_blank" class="btn btn-sm">View Details</a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>SQL Sales Management</h3>
+                            <div class="tech-stack">
+                                <span class="pill">SQL</span>
+                                <span class="pill">Database</span>
+                            </div>
+                            <p>Sales and Customer Management System project for beginners.</p>
+                            <a href="https://medium.com/@gaurigiri777/beginner-sql-project-sales-customer-management-system-162c5a0e741a"
+                                target="_blank" class="read-link">Read on Medium <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education & Certifications -->
+        <section id="education" class="section education-section">
+            <div class="container">
+                <div class="section-header center-text">
+                    <h2 class="section-title">Education</h2>
+                    <p class="section-subtitle">Strong academic foundation in business analytics and computer
+                        applications</p>
+                </div>
+
+                <div class="education-grid">
+
+                    <!-- MBA -->
+                    <div class="education-card glass-card">
+                        <div class="edu-icon-wrapper">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3 class="degree-title">Master of Business Administration (MBA)</h3>
+                        <p class="specialization">Marketing & Information Technology</p>
+                        <span class="institution">Dr. Shyama Prasad Mukherji University, Ranchi</span>
+                        <span class="score">Score: <strong>82%</strong></span>
+                    </div>
+
+                    <!-- BCA -->
+                    <div class="education-card glass-card">
+                        <div class="edu-icon-wrapper">
+                            <i class="fas fa-university"></i>
+                        </div>
+                        <h3 class="degree-title">Bachelor of Computer Applications (BCA)</h3>
+                        <p class="specialization">Computer Applications</p>
+                        <span class="institution">Ranchi University</span>
+                        <span class="score">Score: <strong>78.83%</strong></span>
+                    </div>
+
+                </div>
+
+                <div class="section-header secondary center-text" style="margin-top: 60px;">
+                    <h2 class="section-title">Certifications</h2>
+                </div>
+                <div class="cert-grid">
+                    <div class="cert-card">
+                        <div class="cert-icon-wrapper">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <h3>Python Basic</h3>
+                        <a href="certificates/python_basic-certificate.pdf" target="_blank" class="cert-link">View
+                            Certificate</a>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon-wrapper">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <h3>SQL Basic</h3>
+                        <a href="certificates/sql_basic-certificate.pdf" target="_blank" class="cert-link">View
+                            Certificate</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2 class="section-title center-text">Get In Touch</h2>
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <a href="mailto:gaurigiri777@gmail.com" class="contact-pill">
+                            <i class="fas fa-envelope"></i> gaurigiri777@gmail.com
+                        </a>
+                        <a href="tel:+918051026610" class="contact-pill">
+                            <i class="fas fa-phone"></i> +91-8051026610
+                        </a>
+
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/gauri-giri-47865582" target="_blank"
+                                class="social-btn linkedin"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://github.com/gaurigiri777-prog" target="_blank" class="social-btn github"><i
+                                    class="fab fa-github"></i></a>
+                            <a href="https://hackerrank.com/gaurigiri777" target="_blank"
+                                class="social-btn hackerrank"><i class="fab fa-hackerrank"></i></a>
+                            <a href="https://leetcode.com/u/Trc3gmK4fK/" target="_blank" class="social-btn leetcode"><i
+                                    class="fas fa-code"></i></a>
+                            <a href="https://medium.com/@gaurigiri777" target="_blank" class="social-btn medium"><i
+                                    class="fab fa-medium-m"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Optional Contact Form -->
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required class="form-input">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required class="form-input">
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required class="form-input"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 Gauri Giri. All rights reserved.</p>
+            <p>Made with <i class="fas fa-heart heart-pulse"></i> by Gauri Giri</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
